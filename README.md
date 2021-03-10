@@ -28,11 +28,22 @@ In the following we provide indications for local development (on your own machi
 
 #### Local development
 Be sure to have Python installed on your machine. We recommend using the [Anaconda](https://docs.anaconda.com/anaconda/install/) distribution. 
-In order not to clash with other package dependencies you might already have, the first step is to create a virtual environment. 
+In order not to clash with other package dependencies you might already have, the first step is to create a virtual environment. Open an Anaconda terminal and type: 
 ```
 conda create --name aiatuni --file requirements.txt
 ```
 We have provided a list of packages in the `requirement.txt` file, that give you a starting point to go through the demo use case, and are definitely enough also for the hackaton. Running the command above will also install all the packages. 
+
+Once everything is installed, you can activate your environment via:
+```
+conda activate aiatuni
+```
+
+To open the jupyter notebook menu, navigate in the terminal to the folder containing the Ai@University material (using the `cd` command). Then type:
+```
+juypter notebook
+```
+and you should be redirected via your browser to the Home view. From there, click on the notebook you wish to open, and voilà.
 
 #### Using Colab
 WIP
