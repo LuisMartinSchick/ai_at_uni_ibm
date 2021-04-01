@@ -24,7 +24,7 @@ git clone https://github.com/mperini/at_at_uni_ibm.git
 ### Setup Environment for the Hackaton
 For the Hackaton competition you will be part of a team, and you'll have to collaborate together to solve the case. Given the virtual nature of the event (thanks COVID) you'll have to decide with your team what collaboration tools you want to use to work toeghter. 
 
-In the following we provide indications for local development (on your own machine) and for shared development using [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb).
+In the following we provide indications for local development (on your own machine) and for shared live development using [Visual Studio Code](https://code.visualstudio.com/).
 
 #### Local development
 Be sure to have Python installed on your machine. We recommend using the [Anaconda](https://docs.anaconda.com/anaconda/install/) distribution. 
@@ -52,8 +52,14 @@ jupyter notebook
 ```
 and you should be redirected via your browser to the Home view. From there, click on the notebook you wish to open, and voilà.
 
-#### Using Colab
-WIP
+#### Using VS Code
+Follow [these instructions](https://docs.microsoft.com/en-us/visualstudio/liveshare/) to download Visual Studio Code and the Live Share extension. 
+
+From the Extension Marketplace (within VS Code) also download the Python extension by searching for `@id:ms-python.python`. Once that is installed re-start the program, and open the Ai@University folder from within the project. On the bottom left part of the screen, in the blue bar, click where it says "Python 3.8.6 64-bit" (or something similar depending on the Python version installed on your machine) and select the `(aiatuni: conda)`.
+
+At this point you can open the desired notebook (or create a new one). Before you see the interactive view you might be prompted to trust the notebook content. Click on Trus (if you trust us!) and you are ready to code.
+
+To enable the live share now click on "Live Share" on the bottom blue bar. You'll be asked to authenticate using your GitHub or Microsoft account. Follow the instructions provided to connect your account to Visual Studio Code. If everything went well you are now able to invite other team members to join your session, or join theirs.
 
 
 __Author:__ Marco Perini, Data Scientist at IBM (marco.perini@ibm.com) 
