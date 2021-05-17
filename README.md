@@ -30,7 +30,7 @@ In the following we provide indications for local development (on your own machi
 Be sure to have Python installed on your machine. We recommend using the [Anaconda](https://docs.anaconda.com/anaconda/install/) distribution. 
 In order not to clash with other package dependencies you might already have, the first step is to create a virtual environment. Open an Anaconda terminal and type: 
 ```
-conda create --name aiatuni
+conda create --name aiatuni python=3.7
 ```
 Then navigate to the Ai@University folder you have previously cloned/downloaded via:
 ```
