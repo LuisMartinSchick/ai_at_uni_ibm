@@ -16,7 +16,7 @@ You can access the material by:
 
 - Cloning this repository on your local machine via:
 ```
-git clone https://github.com/mperini/at_at_uni_ibm.git
+git clone https://github.com/mperini/ai_at_uni_ibm.git
 ```
 
 - Downloading the whole repository as a ZIP file, and then unzip it in the desired location.
